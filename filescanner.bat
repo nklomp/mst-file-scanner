@@ -1,0 +1,1 @@
+java -jar mst-file-scanner-1.0.1-SNAPSHOT.jar %*
