@@ -17,8 +17,7 @@
     <properties>
         <commons-csv.version>1.6</commons-csv.version>
         <validation-api.version>2.0.1.Final</validation-api.version>
-        <hibernate-validator.version>5.2.4.Final</hibernate-validator.version>
-        <freemarker.version>2.3.29</freemarker.version>
+        <hibernate-validator.version>[5.3.5,)</hibernate-validator.version>
     </properties>
 
     <developers>
@@ -77,12 +76,6 @@
             <groupId>org.hibernate</groupId>
             <artifactId>hibernate-validator</artifactId>
             <version>${hibernate-validator.version}</version>
-        </dependency>
-
-        <dependency>
-            <groupId>org.freemarker</groupId>
-            <artifactId>freemarker</artifactId>
-            <version>${freemarker.version}</version>
         </dependency>
 
     </dependencies>
